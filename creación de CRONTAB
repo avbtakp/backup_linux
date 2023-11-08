@@ -1,0 +1,10 @@
+Crear tarea específica mediante CRONTAB 
+
+00 01 * * * sh /home/ScriptBackup.sh
+
+
+Donde el primer apartado 00 será: será los minutos en este caso minuto 0
+01 La hora en formato 24H en este caso son la 1 de la mañana. 
+El primer * es día en este caso será todos los días. 
+El segundo * es el mes en este caso todos los meses.
+El tercer * es el día de semana en este caso todos los días si hubiera un número por ejemplo 3 este sería Miércoles, si dijera 5 será Viernes.
